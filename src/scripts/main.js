@@ -106,3 +106,6 @@ buttonAddRow.addEventListener('click', appendRow);
 buttonRemoveRow.addEventListener('click', removeRow);
 buttonAddColumn.addEventListener('click', appendColumn);
 buttonRemoveColumn.addEventListener('click', removeColumn);
+
+refreshColumnButtons();
+refreshRowButtons();
